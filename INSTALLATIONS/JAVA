@@ -1,6 +1,6 @@
 INSTALLING JAVA………………………………………
 
-#yum install java-1.8*
+#yum install java-1.8* -y
 #yum -y install java-1.8.0-openjdk
 Confirm Java Version
 Lets install java and set the java home
