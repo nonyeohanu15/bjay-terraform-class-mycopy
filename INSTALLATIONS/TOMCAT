@@ -38,12 +38,12 @@ find / -name context.xml
 above command gives 3 context.xml files. comment () Value ClassName field on files which are under webapp directory. After that restart tomcat services to effect these changes
 
 # To comment a line
-<!-- -->
-
+<!-- and --> at the end of the line.
+Then restart tomcat with below command.
 tomcatdown
 tomcatup
 Update users information in the tomcat-users.xml file goto tomcat home directory and Add below users to conf/tomcat-user.xml file
-
+cd to /opt then cd into tomcat then cd to conf and vi into tomcat-user.xml and paste the below lines.
 	<role rolename="manager-gui"/>
 	<role rolename="manager-script"/>
 	<role rolename="manager-jmx"/>
